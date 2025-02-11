@@ -196,7 +196,7 @@ h1{
     display: flex;
 }
 .overall_right_card_2{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 380px;
     h2{
         margin-top: 20px;
@@ -299,24 +299,15 @@ h1{
   
 }
 .images{
-    width: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
+    justify-content:space-around;
     img{
-        width: 90%;
+        width: 40%;
     }  
 }
-.image_1.image_2,.image_3,.image_4.{
-
-
-
-}
-
-
-
-
-
 .overall_right_card_6{
     h3{
        padding: 20px;
@@ -362,6 +353,28 @@ h1{
         background-color: rgb(245, 40, 40);
         border: none;
      }
+}
+footer{
+    padding: 32px;
+    height: 170px;
+    background-color: gray;
+
+   
+     a,p{
+        padding-top: 10px;
+        color: #fff;
+        font-size: 18px;
+    
+    }
+}
+.bash{color: #fff;
+    width: 120px;
+    padding: 10px;
+     background-color: #000;
+     a{
+        text-decoration: none;
+     }
+        
 }
 
 
